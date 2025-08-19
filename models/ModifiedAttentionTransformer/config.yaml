@@ -1,0 +1,26 @@
+num_heads: 8            # Number of attention heads
+num_layers: 4           # Number of transformer layers
+dropout: 0.1            # Dropout
+embedding_dim: 128
+d_ff: 64
+seq_len: 1000
+token_size: 10
+hidden_dim: 512         # Hidden dimension in Mix-FFN
+batch_size: 128
+val_split: 0.9
+num_epochs: 100
+learning_rate: 0.0001
+mode: "train"
+use_features: True
+use_positional_encoding: False
+use_MixFFN: True
+use_lstm_embedding: True
+use_time_aware_attention: True
+
+
+# Positional Encoding
+# MixFFN
+# MixFFN + Positional Encoding
+# MixFFN + LSTM Embedding
+# MixFFN + LSTM Embedding + TAA
+# MixFFN + LSTM Embedding + TAA + Features -> ModifiedAttentionTransformer_8

@@ -1,0 +1,7 @@
+logs/
+preprocessed_dataset/
+saved_models/
+uci_database/
+venv/
+__pycache__/
+*.pyc
